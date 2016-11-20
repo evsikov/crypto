@@ -1,6 +1,6 @@
 package info.evsikov.cryptography.cli;
 
-import info.evsikov.cryptography.verrnam.Command;
+import info.evsikov.cryptography.api.Command;
 import info.evsikov.cryptography.verrnam.Verrnam;
 
 import java.util.Objects;
