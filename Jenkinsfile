@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Branch: jenkins'
+                echo 'Branch: ${BRANCH_NAME}'
             }
         }
         stage('After') {
